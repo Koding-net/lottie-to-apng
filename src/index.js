@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * @kodeking/lottie-to-apng
+ * @koding-net/lottie-to-apng
  *
  * Convert a Lottie JSON animation to animated PNG (APNG).
  * Uses Puppeteer to render frames and ffmpeg for encoding.
  *
  * CLI:  npx lottie-to-apng input.json output.png [--fps 24] [--width 480]
- * API:  const { convertToApng } = require('@kodeking/lottie-to-apng')
+ * API:  const { convertToApng } = require('@koding-net/lottie-to-apng')
  */
 
 'use strict';

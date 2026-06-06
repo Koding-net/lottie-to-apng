@@ -1,9 +1,9 @@
-# @kodeking/lottie-to-apng
+# @koding-net/lottie-to-apng
 
 > Convert Lottie JSON animations to **animated PNG (APNG)** — Node.js CLI + programmatic API
 
-[![npm](https://img.shields.io/npm/v/@kodeking/lottie-to-apng)](https://www.npmjs.com/package/@kodeking/lottie-to-apng)
-[![license](https://img.shields.io/npm/l/@kodeking/lottie-to-apng)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/lottie-to-apng)](https://www.npmjs.com/package/@koding-net/lottie-to-apng)
+[![license](https://img.shields.io/npm/l/@koding-net/lottie-to-apng)](LICENSE)
 
 Lossless, full RGBA transparency, infinite loop. APNG is natively supported by all modern browsers and renders identically to PNG on platforms that don't support animation. Try it live at [iconking.net/tools/lottie-to-apng](https://iconking.net/tools/lottie-to-apng).
 
@@ -21,8 +21,8 @@ Lossless, full RGBA transparency, infinite loop. APNG is natively supported by a
 ## Install
 
 ```bash
-npm install -g @kodeking/lottie-to-apng
-npx @kodeking/lottie-to-apng input.json output.png
+npm install -g @koding-net/lottie-to-apng
+npx @koding-net/lottie-to-apng input.json output.png
 ```
 
 ---
@@ -38,7 +38,7 @@ lottie-to-apng input.json output.png [--fps 24] [--width 480]
 ## Programmatic API
 
 ```js
-const { convertToApng } = require('@kodeking/lottie-to-apng');
+const { convertToApng } = require('@koding-net/lottie-to-apng');
 
 await convertToApng({
   input:  'animation.json',
