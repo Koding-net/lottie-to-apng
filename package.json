@@ -1,0 +1,19 @@
+{
+  "name": "@kodeking/lottie-to-apng",
+  "version": "1.0.0",
+  "description": "Convert Lottie JSON animations to animated PNG (APNG) — Node.js CLI and programmatic API",
+  "main": "src/index.js",
+  "bin": { "lottie-to-apng": "src/index.js" },
+  "files": ["src"],
+  "keywords": ["lottie", "apng", "animated-png", "lottie-to-apng", "animation", "converter", "cli", "puppeteer", "ffmpeg", "kodeking"],
+  "author": "KodeKing <hello@kodeking.dev>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/kodeking/lottie-to-apng.git" },
+  "homepage": "https://github.com/kodeking/lottie-to-apng#readme",
+  "bugs": { "url": "https://github.com/kodeking/lottie-to-apng/issues" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "puppeteer": "^22.0.0"
+  }
+}
